@@ -1,0 +1,26 @@
+{
+    "name": "platerate",
+    "version": "1.0.0",
+    "description": "sample application",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/siddheshmuley/coding_test_platerateguru.git"
+    },
+    "bugs": {
+        "url": "https://github.com/siddheshmuley/coding_test_platerateguru/issues"
+    },
+    "homepage": "https://github.com/siddheshmuley/coding_test_platerateguru#readme",
+    "author": "Siddhesh Muley",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.16.3",
+        "path": "^0.12.7",
+        "pug": "^2.0.3",
+        "request": "^2.85.0",
+        "xmlhttprequest": "^1.8.0"
+    }
+}

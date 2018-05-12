@@ -1,0 +1,17 @@
+extends ./layout.pug
+
+block content
+    .jumbotron
+        .container
+            table(class='table')
+                tr
+                    th USERID
+                    th ID
+                    th TITLE
+                    th BODY
+                each val in data
+                    tr
+                        td= val.userId
+                        td= val.id
+                        td= val.title
+                        td= val.body

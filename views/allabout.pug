@@ -1,0 +1,8 @@
+extends ./layout.pug
+
+block content
+    .jumbotron
+        .container
+            each val in info
+                p= "Q: "+val.question
+                p= "A: "+val.answer

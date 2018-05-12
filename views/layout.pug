@@ -1,0 +1,24 @@
+doctype html
+html
+  head
+    title PlateRate.guru test app
+    link(href='/stylesheets/bootstrap.css', rel='stylesheet')
+    link(href='/stylesheets/table.css', rel='stylesheet')
+  body
+    nav.navbar.navbar-expand-md.navbar-dark.fixed-top.bg-dark
+      a.navbar-brand(href='#') PlateRate.guru
+      button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarsExampleDefault', aria-controls='navbarsExampleDefault', aria-expanded='false', aria-label='Toggle navigation')
+        span.navbar-toggler-icon
+      #navbarsExampleDefault.collapse.navbar-collapse
+        ul.navbar-nav.mr-auto
+          li.nav-item
+            a.nav-link(href='/') Home
+          li.nav-item
+            a.nav-link(href='/aboutme') About Me
+          li.nav-item
+            a.nav-link(href='/posts') Posts
+    main(role='main')
+    block content
+    hr
+    footer.container
+      p(class='text-center') © Company 2017-2018
